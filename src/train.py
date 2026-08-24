@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline, make_pipeline
 import os
 from joblib import dump
-
+import pandas as pd
 
 
 def load_and_validate_data(data_path: str) -> pd.DataFrame:
